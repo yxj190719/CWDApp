@@ -157,8 +157,7 @@ public class UploadingAsyncTask extends AsyncTask<Void,Void,Void> {
             //printout.writeBytes(URLEncoder.encode(params[0],"UTF-8"));
             printout.flush();
             printout.close();
-            Log.d("URL",""+connection.getResponseCode());
-            Log.d("URL",connection.getRequestMethod());
+            connection.getResponseCode();
         }catch (Exception e){
             e.printStackTrace();
         }
