@@ -4,10 +4,10 @@
 
     To get one, follow this link, follow the directions and press "Create" at the end:
 
-    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=32:9A:05:C3:34:18:E1:60:10:5E:E0:AB:22:A8:E2:1A:98:AB:DA:F8%3Bcom.example.xyb5b.cwd
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=58:C3:0A:34:AC:17:F9:BE:79:9D:00:F7:40:52:67:63:3F:8C:19:6F%3Bcom.example.xyb5b.cwd
 
     You can also add your credentials to an existing key, using this line:
-    32:9A:05:C3:34:18:E1:60:10:5E:E0:AB:22:A8:E2:1A:98:AB:DA:F8;com.example.xyb5b.cwd
+    58:C3:0A:34:AC:17:F9:BE:79:9D:00:F7:40:52:67:63:3F:8C:19:6F;com.example.xyb5b.cwd
 
     Alternatively, follow the directions here:
     https://developers.google.com/maps/documentation/android/start#get-key
@@ -16,6 +16,6 @@
     string in this file.
     -->
     <string name="google_maps_key" translatable="false" templateMergeStrategy="preserve">
-        AIzaSyAGSoNTgC_1J3N4ICTJmeHxIooL7bJxlTA
+        AIzaSyCKsMfVD_K6I-N0p-GJY5Iq0ED4Cr5ONKA
     </string>
 </resources>

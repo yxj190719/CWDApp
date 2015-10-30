@@ -118,6 +118,7 @@ public class UploadingAsyncTask extends AsyncTask<Void,Void,Void> {
                 e.printStackTrace();
             }
             ja.put(jo);
+
         }
 
 
@@ -161,7 +162,9 @@ public class UploadingAsyncTask extends AsyncTask<Void,Void,Void> {
         }catch (Exception e){
             e.printStackTrace();
         }
+
         mDb.close();
+
         return null;
     }
 
