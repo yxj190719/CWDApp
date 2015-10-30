@@ -1,0 +1,135 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="MDC CWD DATA SHEET"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="60dp"
+        android:textColor="#000000"
+        android:textStyle="bold"/>
+</LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/linearLayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="COLLECTION DATE:"
+            android:textSize="40dp"
+            android:id="@+id/textView"
+            android:layout_gravity="center_vertical"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="35dp"
+            android:id="@+id/showDate"
+            android:textStyle="italic"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_horizontal"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Not today?"
+            android:textSize="20dp"
+            android:id="@+id/showCalendar"
+            android:layout_gravity="center_vertical"
+            android:onClick="showCalendar"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/linearLayout1"
+        android:gravity="center_vertical|center_horizontal">
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="120dp"
+            android:text="Hunter Harvested"
+            android:textSize="40dp"
+            android:id="@+id/hunter_harvested"
+            android:onClick="goToNextActivity"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/linearLayout2"
+        android:gravity="center_vertical|center_horizontal">
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="120dp"
+            android:textSize="40dp"
+            android:text="Road Kill"
+            android:id="@+id/road_kill"
+            android:onClick="goToNextActivity"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/linearLayout3"
+        android:gravity="center_vertical|center_horizontal">
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="120dp"
+            android:textSize="40dp"
+            android:text="Sick Deer"
+            android:id="@+id/sick_deer"
+            android:onClick="goToNextActivity"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/linearLayout4"
+        android:gravity="center_vertical|center_horizontal">
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="120dp"
+            android:textSize="40dp"
+            android:text="Targeted Harvest"
+            android:id="@+id/targeted_harvest"
+            android:onClick="goToNextActivity"/>
+    </LinearLayout>
+
+
+</LinearLayout>

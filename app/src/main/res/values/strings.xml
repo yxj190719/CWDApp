@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">CWD</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_test">Test</string>
+    <string name="title_activity_hunter__harvested_">Hunter_Harvested_Activity</string>
+    <string name="title_activity_road__kill_">Road_Kill_Activity</string>
+    <string name="title_activity_sick__deer_">Sick_Deer_Activity</string>
+    <string name="title_activity_targeted__harvest_">Targeted_Harvest_Activity</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_initialization">Initialization</string>
+</resources>

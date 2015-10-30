@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:textViewStyle">@style/MyTextView</item>
+        <item name="android:radioButtonStyle">@style/MyRadioButton</item>
+        <item name="android:checkboxStyle">@style/MyCheckBox</item>
+    </style>
+
+    <style name="MyTextView" parent="android:Widget.TextView">
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="MyRadioButton" parent="android:Widget.CompoundButton.RadioButton">
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="MyCheckBox" parent="android:Widget.CompoundButton.CheckBox">
+        <item name="android:textSize">20dp</item>
+    </style>
+
+
+</resources>
